@@ -17,7 +17,7 @@ function createHeaderAndFooter() {
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-light">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Perfil</a>
+                      <a class="nav-link" href="/code/index.html#profile">Perfil</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,7 +49,7 @@ function createHeaderAndFooter() {
         <div class="container__footer">
         <div class="box__footer">
           <div class="logo">
-            <img src="#" alt="Logo Raphael Sena Augusto de Brito" />
+            <img src="assets/img/me.jpg" class = "rounded" alt="Logo Raphael Sena Augusto de Brito" />
           </div>
         </div>
         <div class="box__footer">
