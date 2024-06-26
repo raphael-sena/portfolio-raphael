@@ -1,0 +1,20 @@
+[
+  {
+    "type": "article",
+    "title": "IA",
+    "description": "Robôs Tomando Lugar de Humanos",
+    "image": "cabeca-robo.png"
+  },
+  {
+    "type": "video",
+    "title": "PUC Minas | TI - Fundamentos de Engenharia de Software & Laboratório de Programação Modular",
+    "description": "Trabalho Interdisciplinar entre as disciplinas de Engenharia de Software e Laboratório de Progrmação Modular, proposto pelos Professores Eveline Veloso e Hugo de Paula.",
+    "videoUrl": "https://www.youtube.com/embed/CQC3pLmubgA?si=cGRu0Tcy1lov284H"
+  },
+  {
+    "type": "article",
+    "title": "Artigo 2",
+    "description": "Descrição do artigo 2.",
+    "image": "assets/img/image2.jpg"
+  }
+]

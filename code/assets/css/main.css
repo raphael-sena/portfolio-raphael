@@ -13,7 +13,7 @@ body {
     padding-top: 70px;
 }
 
-#profile > hr{
+section > hr{
     margin: auto;
     border: none;
     height: 1px;
@@ -45,10 +45,45 @@ body {
     display: block;
 }
 
+.carousel-caption,
+.carousel-control-prev,
+.carousel-control-next {
+    transition: opacity 0.5s;
+}
+
+.carousel-caption,
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+}
+
+.carousel-caption.visible,
+.carousel-control-prev.visible,
+.carousel-control-next.visible {
+    opacity: 1;
+}
+
+.carousel-item.video-item .carousel-caption,
+.carousel-item.video-item .carousel-control-prev,
+.carousel-item.video-item .carousel-control-next {
+    opacity: 0;
+}
+
+.carousel-item.video-item:hover .carousel-caption,
+.carousel-item.video-item:hover .carousel-control-prev,
+.carousel-item.video-item:hover .carousel-control-next {
+    opacity: 1;
+}
+
+#movie_player > div.ytp-cued-thumbnail-overlay > div {
+    height: max-content;
+}
+  
+  
 
 footer{
     width: 100%;
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 
 .container__footer{

@@ -1,13 +1,10 @@
 function createProfile() {
-  var profile = document.querySelector("#profile");
+  var profile = document.querySelector(".profile");
 
   profile.innerHTML = `
-        <h1 class="px-5">Perfil</h1>
-        <hr class="mx-5"/>
-        <div class="container p-4">
           <div class="row">
             <div class="col-12 col-lg-4">
-              <img src="assets/img/me.jpg" class="img-fluid rounded" alt="Profile" />
+              <img src="assets/img/me.jpg" class="img-fluid rounded" alt="Profile image" />
             </div>
             <div class="col-12 col-md-8">
               <h3>Raphael Sena Augusto de Brito</h3>
@@ -29,7 +26,7 @@ function createProfile() {
                     </div>
                     <div id="profile-conteudo">
                       <h5><strong>Website:&nbsp</strong></h5>
-                      <a href="https://portfolio-raphael-umber.vercel.app/">https://portfolio-raphael-umber.vercel.app/&nbsp</a>
+                      <a href="https://portfolio-raphael-umber.vercel.app/">https://portfolio-raphael-umber.vercel.app/ &nbsp</a>
 
                       <span class="px-4 mx-4">
                         <a href="https://www.linkedin.com/in/raphael-sena/" target="_blank"><i class="fab fa-linkedin fa-xl"></i></a>
@@ -50,7 +47,6 @@ function createProfile() {
                 </div>
               </div>
             </div>
-          </div>
     `;
 
   fetchFollowers();

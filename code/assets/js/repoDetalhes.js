@@ -43,4 +43,4 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       document.getElementById('repo-info').innerHTML = '<p>Repositório não encontrado.</p>';
     }
-  });  
+  });
