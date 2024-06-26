@@ -1,17 +1,28 @@
-const jsonServer = require('json-server')
-const server = jsonServer.create()
+// const jsonServer = require('json-server');
+// const path = require('path');
+// const express = require('express');
 
-const fs = require('fs')
-const path = require('path')
-const filePath = path.join('data/db.json')
-const data = fs.readFileSync(filePath, "utf-8");
-const db = JSON.parse(data);
-const router = jsonServer.router(db)
+// const server = express();
+// const router = jsonServer.router('data/db.json');
+// const middlewares = jsonServer.defaults({
+//   static: path.join(__dirname, 'code')
+// });
 
-const middlewares = jsonServer.defaults()
+// const PORT = process.env.PORT || 3000;
 
-server.use(middlewares)
-server.use(router)
-server.listen(3000, () => {
-  console.log('JSON Server is running')
-})
+// server.use(middlewares);
+// server.use('/api', router);
+
+// // Rota para servir a página inicial
+// server.get('/', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'index.html'));
+// });
+
+// // Rota para servir a página de detalhes do repositório
+// server.get('/pages/repo-detalhes.html', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'code', 'pages', 'repo-detalhes.html'));
+// });
+
+// server.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}`);
+// });

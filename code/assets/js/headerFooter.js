@@ -5,7 +5,7 @@ function createHeaderAndFooter() {
     header.innerHTML = `
         <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
             <div class="container-fluid px-5">
-              <a class="navbar-brand" href="#">Raphael Sena</a>
+              <a class="navbar-brand" href="/code/index.html">Raphael Sena</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -61,7 +61,7 @@ function createHeaderAndFooter() {
         </div>
 
         <div class="box__footer">
-          <h2>Conecte-se comigo!</h2>
+          <h2>Conecte-se</h2>
           <a href="#"><i class="fab fa-github-square"></i> GitHub</a>
           <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
           <a href="#"><i class="fa-solid fa-envelope"></i> Gmail</a>
