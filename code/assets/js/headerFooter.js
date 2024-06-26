@@ -57,17 +57,19 @@ function createHeaderAndFooter() {
         </div>
         <div class="box__footer">
           <h2>Acesse</h2>
-          <a href="#">Perfil</a>
-          <a href="#">Repositórios</a>
-          <a href="#">Conteúdo Sugerido</a>
-          <a href="#">Colegas</a>
+          <a href="/code/index.html">Perfil</a>
+          <a href="/code/index.html#repositories">Repositórios</a>
+          <a href="/code/index.html#fique-por-dentro">Fique por dentro</a>
+          <a href="/code/index.html#colegas">Colegas</a>
         </div>
 
         <div class="box__footer">
           <h2>Conecte-se</h2>
-          <a href="#"><i class="fab fa-github-square"></i> GitHub</a>
-          <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
-          <a href="#"><i class="fa-solid fa-envelope"></i> Gmail</a>
+          <a target="_blank" href="https://github.com/raphael-sena"><i class="fab fa-github-square"></i> GitHub</a>
+          <a target="_blank" href="https://www.linkedin.com/in/raphael-sena/"><i class="fab fa-linkedin"></i> Linkedin</a>
+          <a href="mailto:rsenares1@gmail.com?subject=Assunto do email"><i class="fa-solid fa-envelope"></i> Gmail</a>
+          <a href="https://api.whatsapp.com/send/?phone=5531997167755&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="tel:+5531997167755"><i class="fa-solid fa-phone"></i>+55 (31) 99716-7755</a>
         </div>
       </div>
 
