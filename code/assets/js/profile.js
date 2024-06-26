@@ -6,7 +6,7 @@ function createProfile() {
             <div class="col-12 col-lg-4">
               <img src="assets/img/me.jpg" class="img-fluid rounded" alt="Profile image" />
             </div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-8" style="text-align: justify;">
               <h3>Raphael Sena Augusto de Brito</h3>
               <p>Olá, seja muito bem-vindo(a) ao meu site-portifólio! Bom, meu nome é Raphael, tenho 23 anos, moro em Belo
                 Horizonte com meus pais. Atualmente curso Engenharia de Software pela PUC Minas - Praça da Liberdade, e
@@ -29,10 +29,10 @@ function createProfile() {
                       <a href="https://portfolio-raphael-umber.vercel.app/">https://portfolio-raphael-umber.vercel.app/ &nbsp</a>
 
                       <span class="px-4 mx-4">
-                        <a href="https://www.linkedin.com/in/raphael-sena/" target="_blank"><i class="fab fa-linkedin fa-xl"></i></a>
-                        <a href="https://github.com/raphael-sena" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+                        <a href="https://www.linkedin.com/in/raphael-sena/" target="_blank"><i class="fab fa-linkedin fa-2xl"></i></a>
+                        <a href="https://github.com/raphael-sena" target="_blank"><i class="fab fa-github fa-2xl"></i></a>
                         <span class="position-relative ms-3" id="followers-container">
-                          <i class="fas fa-user fa-lg"></i>
+                          <a target="_blank" href="https://github.com/raphael-sena?tab=followers" " ><i class="fas fa-user fa-2xl"></i></a>
                           <span id="followers-badge" class="badge bg-danger rounded-circle position-absolute top-0 start-100 translate-middle p-1">
                             0
                           </span>

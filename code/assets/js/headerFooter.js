@@ -24,19 +24,18 @@ function createHeaderAndFooter() {
                         Repositórios
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" id = "dropdown-item-repositorio" href="#">Algum Repositório</a></li>
-                        <li><a class="dropdown-item" id = "dropdown-item-repositorio" href="#">Outro Repositório</a></li>
+                        <li><a class="dropdown-item" id = "dropdown-item-repositorio" href="/code/index.html#repositories">Visualizar Repositórios</a></li>
                         <li>
                           <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" id = "dropdown-item-todos-repositorios" href="#">Visualizar Todos</a></li>
+                        <li><a target="_blank" class="dropdown-item" id = "dropdown-item-todos-repositorios" href="https://github.com/raphael-sena?tab=repositories">Visualizar Todos</a></li>
                       </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conteúdo Sugerido</a>
+                        <a class="nav-link" href="/code/index.html#fique-por-dentro">Fique por Dentro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Colegas</a>
+                        <a class="nav-link" href="/code/index.html#colegas">Colegas</a>
                     </li>
                   </ul>
                 </div>
@@ -46,6 +45,10 @@ function createHeaderAndFooter() {
     `;
 
     footer.innerHTML = `
+    
+        <div class="text-center mt-3">
+          <p>Voltar ao topo<button id="scroll-to-top-btn" class="btn btn"><i class="fa-solid fa-arrow-up fa-bounce fa-2xl" style="color: #5c5c5c;"></i></button></p>
+        </div>
         <div class="container__footer">
         <div class="box__footer">
           <div class="logo">
@@ -69,10 +72,19 @@ function createHeaderAndFooter() {
       </div>
 
       <div class="box__copyright">
-        <hr />
-        <p>Todos os direitos reservados © 2024 <b>Raphael Sena Augusto de Brito</b></p>
-      </div>
+          <hr />
+          <p>Todos os direitos reservados © 2024 <b>Raphael Sena Augusto de Brito</b></p>
+        </div>
     `;
+
+    const scrollToTopBtn = document.getElementById('scroll-to-top-btn');
+      if (scrollToTopBtn) {
+        scrollToTopBtn.addEventListener('click', function() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
 }
+
+
 
 window.addEventListener("load", createHeaderAndFooter);
