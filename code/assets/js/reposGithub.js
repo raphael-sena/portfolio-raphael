@@ -2,11 +2,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const username = 'raphael-sena';
     const listaRepo = document.getElementById('repo-list');
     const carregarMaisbtn = document.getElementById('carregar-mais-btn');
+    const verMenosBtn = document.createElement('button');
+    verMenosBtn.classList.add('btn', 'btn-danger', 'ms-2');
+    verMenosBtn.textContent = 'Ver Menos';
+    verMenosBtn.style.display = 'none'; // Inicialmente escondido
+    carregarMaisbtn.insertAdjacentElement('afterend', verMenosBtn);
+  
     let repos = [];
     let currentRepoIndex = 0;
     const reposPorPagina = 6;
   
     carregarMaisbtn.addEventListener('click', loadMoreRepos);
+    verMenosBtn.addEventListener('click', showLessRepos);
   
     fetch(`https://api.github.com/users/${username}/repos`)
       .then(response => response.json())
@@ -20,7 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(error => console.error('Erro ao buscar repositórios:', error));
   
     function displayRepos() {
-      const nextRepos = repos.slice(currentRepoIndex, currentRepoIndex + reposPorPagina);
+      listaRepo.innerHTML = '';
+      const nextRepos = repos.slice(0, currentRepoIndex + reposPorPagina);
       nextRepos.forEach(repo => {
         const repoItem = document.createElement('div');
         repoItem.className = 'col-12 col-md-6 col-lg-4 mb-4';
@@ -37,13 +45,27 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         listaRepo.appendChild(repoItem);
       });
-      currentRepoIndex += reposPorPagina;
-      if (currentRepoIndex >= repos.length) {
+  
+      if (currentRepoIndex + reposPorPagina >= repos.length) {
         carregarMaisbtn.style.display = 'none';
+      } else {
+        carregarMaisbtn.style.display = 'inline-block';
+      }
+  
+      if (currentRepoIndex > 0) {
+        verMenosBtn.style.display = 'inline-block';
+      } else {
+        verMenosBtn.style.display = 'none';
       }
     }
   
     function loadMoreRepos() {
+      currentRepoIndex += reposPorPagina;
+      displayRepos();
+    }
+  
+    function showLessRepos() {
+      currentRepoIndex = Math.max(0, currentRepoIndex - reposPorPagina);
       displayRepos();
     }
   });
@@ -76,3 +98,4 @@ document.addEventListener("DOMContentLoaded", () => {
   function goBack() {
     window.location.reload();
   }
+  
