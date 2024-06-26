@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="card-body">
               <h5 class="card-title">${repo.name}</h5>
               <p class="card-text">${repo.description ? repo.description : 'Sem descrição'}</p>
+            <p><i class="fas fa-star">&nbsp</i>${repo.stargazers_count}</p>
+
             </div>
             <div class="card-footer">
               <button class="btn btn-dark" onclick="viewRepoDetails('${repo.name}')">Ver Detalhes</button>
