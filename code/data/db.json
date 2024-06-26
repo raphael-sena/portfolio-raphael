@@ -1,40 +1,24 @@
 {
     "colegas": [
-        {
-            "id": 1,
-            "nome": "Maria",
-            "sobrenome": "Eduarda Castro",
-            "github": "#"
-        },
-        {
-            "id": 2,
-            "nome": "Felipe",
-            "sobrenome": "Sena",
-            "github": "#"
-        },
-        {
-            "id": 3,
-            "nome": "Janaina",
-            "sobrenome": "Sena",
-            "github": "#"
-        },
-        {
-            "id": 4,
-            "nome": "Humberto",
-            "sobrenome": "Brito",
-            "github": "#"
-        },
-        {
-            "id": 5,
-            "nome": "João",
-            "sobrenome": "Menezes",
-            "github": "#"
-        },
-        {
-            "id": 6,
-            "nome": "Raphael",
-            "sobrenome": "Marques",
-            "github": "#"
-        }
+      {
+        "nome": "João Victor Menezes",
+        "imagem": "https://github.com/menezo.png"
+      },
+      {
+        "nome": "Raphael Marques",
+        "imagem": "https://github.com/euphael.png"
+      },
+      {
+        "nome": "André Augusto",
+        "imagem": "https://github.com/AndreAugusto0908.png"
+      },
+      {
+        "nome": "Pedro Máximo",
+        "imagem": "https://github.com/pedromaximocampos.png"
+      },
+      {
+        "nome":"Mateus Faissal",
+        "imagem": "https://github.com/mateusfaissal.png"
+      }
     ]
-}
+  }
