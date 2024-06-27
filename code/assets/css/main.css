@@ -104,7 +104,6 @@ footer{
     width: 100%;
     padding: 30px 0px;
     background: rgb(225,225,225);
-    background: radial-gradient(circle, rgba(225,225,225,1) 0%, rgba(224,224,224,1) 23%, rgba(198,198,198,1) 41%, rgba(58,58,58,1) 100%);
 }
 
 .container__footer{
