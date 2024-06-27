@@ -79,10 +79,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(repo => {
         const main = document.querySelector('main');
         main.innerHTML = `
-          <section id="repo-details" class="container mt-5">
+          <section id="repo-details" class="container my-5">
             <h1>${repo.name}</h1>
             <hr>
-            <p><strong>Descrição:</strong> ${repo.description ? repo.description : 'Sem descrição'}</p>
+            <p class="mt-3"><strong>Descrição:</strong> ${repo.description ? repo.description : 'Sem descrição'}</p>
             <p><strong>Data de Criação:</strong> ${new Date(repo.created_at).toLocaleDateString()}</p>
             <p><strong>Linguagem:</strong> ${repo.language}</p>
             <p><strong>Link de Acesso:</strong> <a href="${repo.html_url}" target="_blank">${repo.html_url}</a></p>

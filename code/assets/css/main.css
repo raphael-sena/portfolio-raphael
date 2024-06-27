@@ -31,6 +31,10 @@ section > hr{
     max-width: max-content;
 }
 
+#repo-details > p {
+    font-size: 22px;
+}
+
 #followers-tooltip {
     position: absolute;
     top: -0.3rem;
