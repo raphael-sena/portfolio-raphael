@@ -1,24 +1,80 @@
 {
-    "colegas": [
-      {
-        "nome": "João Victor Menezes",
-        "imagem": "https://github.com/menezo.png"
-      },
-      {
-        "nome": "Raphael Marques",
-        "imagem": "https://github.com/euphael.png"
-      },
-      {
-        "nome": "André Augusto",
-        "imagem": "https://github.com/AndreAugusto0908.png"
-      },
-      {
-        "nome": "Pedro Máximo",
-        "imagem": "https://github.com/pedromaximocampos.png"
-      },
-      {
-        "nome":"Mateus Faissal",
-        "imagem": "https://github.com/mateusfaissal.png"
-      }
-    ]
-  }
+  "raphael": [
+    {
+      "nome": "Raphael",
+      "sobrenome": "Sena Augusto de Brito",
+      "imagem": "https://github.com/raphael-sena.png",
+      "descricao": "<p>Olá, seja muito bem-vindo(a) ao meu site-portifólio! Bom, meu nome é Raphael, tenho 23 anos, moro em Belo Horizonte com meus pais. Atualmente curso Engenharia de Software pela PUC Minas - Praça da Liberdade, e estou muito feliz e entusiasmado pela decisão do curso. Tenho experiência profissional na parte de agradeço o apoio de meus pais, uma vez que foi fundamental nessa decisão.</p> <p>Hoje tenho noções de back-end e front-end suficientes para poder aprofundar mais em uma oportunidade profissional e, dito isto, estou em busca de um estágio na área de estudo onde eu possa melhorar minhas habilidades.</p>",
+      "github": "https://github.com/raphael-sena",
+      "linkedin": "https://www.linkedin.com/in/raphael-sena/"
+    }
+  ],
+  "colegas": [
+    {
+      "id": 1,
+      "nome": "João Victor Menezes",
+      "imagem": "https://github.com/menezo.png",
+      "github": "https://github.com/menezo"
+    },
+    {
+      "id": 2,
+      "nome": "Raphael Marques",
+      "imagem": "https://github.com/euphael.png",
+      "github": "https://github.com/euphael"
+    },
+    {
+      "id": 3,
+      "nome": "André Augusto",
+      "imagem": "https://github.com/AndreAugusto0908.png",
+      "github": "https://github.com/AndreAugusto0908"
+    },
+    {
+      "id": 4,
+      "nome": "Pedro Máximo",
+      "imagem": "https://github.com/pedromaximocampos.png",
+      "github": "https://github.com/pedromaximocampos"
+    },
+    {
+      "id": 5,
+      "nome": "Mateus Faissal",
+      "imagem": "https://github.com/mateusfaissal.png",
+      "github": "https://github.com/mateusfaissal"
+    }
+  ],
+  "carousel": [
+    {
+      "titulo": "Website PUC Minas",
+      "descricao": "",
+      "imagem": "assets/img/carousel/banner-pucminas.png",
+      "tipo": "imagem",
+      "link": "https://www.pucminas.br/destaques/Paginas/default.aspx"
+    },
+    {
+      "titulo": "Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications",
+      "descricao": "",
+      "imagem": "assets/img/carousel/antenna.webp",
+      "tipo": "imagem",
+      "link": "https://ieeexplore.ieee.org/document/10034461"
+    },
+    {
+      "titulo": "Robôs Tomando Lugar de Humanos",
+      "descricao": "Como a tecnologia impacta profissionalmente na vida das pessoas.",
+      "imagem": "assets/img/carousel/cabeca-robo.png",
+      "tipo": "imagem",
+      "link": "https://ieeexplore.ieee.org/document/9769165"
+    },
+    {
+      "titulo": "Social Determinants of Non-Violent Communication: Challenges to Digital Society",
+      "descricao": "",
+      "imagem": "assets/img/carousel/criacao-robozao.png",
+      "tipo": "imagem",
+      "link": "https://ieeexplore.ieee.org/document/9769165"
+    },
+    {
+      "titulo": "Último Vídeo",
+      "descricao": "Vídeo mais recente sobre tecnologia.",
+      "video": "https://www.youtube.com/embed/CQC3pLmubgA?si=cGRu0Tcy1lov284H",
+      "tipo": "video"
+    }
+  ]
+}

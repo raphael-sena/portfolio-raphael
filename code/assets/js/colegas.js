@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
               <img src="${colega.imagem}" class="card-img-top" alt="${colega.nome}">
               <div class="card-body">
                 <h5 class="card-title">${colega.nome}</h5>
+                <a target="_blank" href="${colega.github}"><i class="fab fa-github fa-2xl"></i></a>
               </div>
             </div>
           `;
