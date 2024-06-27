@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "@vercel/speed-insights": "^1.0.12"
+    "@vercel/speed-insights": "^1.0.12",
+    "json-server": "^0.17.4"
+  },
+
+  "scripts": {
+    "start": "node server.js"
   }
 }
